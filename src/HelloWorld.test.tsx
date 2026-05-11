@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { HelloWorld } from './HelloWorld';
+import HelloWorld from './HelloWorld';
 
 describe('HelloWorld', () => {
   it('renders "Hello, World!" by default', () => {
